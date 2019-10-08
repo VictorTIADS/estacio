@@ -42,6 +42,8 @@ body, html {
 	font-family: Poppins-Regular, sans-serif;
 }
 
+
+
 /*---------------------------------------------*/
 a {
 	font-family: Poppins-Regular;
@@ -61,7 +63,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-  color: #6a7dfe;
+  color: #21d4fd;
   color: -webkit-linear-gradient(left, #21d4fd, #17c4c4);
   color: -o-linear-gradient(left, #21d4fd, #17c5c5);
   color: -moz-linear-gradient(left, #21d4fd, #17c5c5);

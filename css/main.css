@@ -38,6 +38,7 @@
 }
 
 body, html {
+  
 	height: 100%;
 	font-family: Poppins-Regular, sans-serif;
 }
@@ -176,7 +177,7 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #f2f2f2;  
+  background-image: linear-gradient(to bottom, #2594b0, #4fadc4,#1291b0,#1291b0);
 }
 
 .wrap-login100 {

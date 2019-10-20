@@ -1,0 +1,11 @@
+create database alunosEstacio
+default character set utf8mb4
+default collate utf8mb4_general_ci;
+
+create table alunos (
+nome varchar (30) not null,
+matricula float not null,
+nascimento date,
+curso varchar (20) not null
+
+)default charset= utf8mb4

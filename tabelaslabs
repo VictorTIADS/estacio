@@ -1,0 +1,17 @@
+create database labsestacio 
+default character set utf8mb4
+default collate utf8mb4_general_ci;
+use alunosestacio;
+create table disciplina (
+id int unsigned not null auto_increment,
+nome varchar(30) not null,
+professor varchar (35) not null,
+primary key (id)
+) default charset utf8mb4;
+
+create table usuario(
+id int unsigned not null auto_increment,
+senha int,
+nome varchar(30) not null,
+email varchar(45) not null
+);
